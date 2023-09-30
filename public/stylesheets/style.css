@@ -1,12 +1,13 @@
 * {
-    font-family: 'Inter';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    background: #1f6e7e;
+    background: #a764b6;
 }
+
 .todo-container {
     color: white;
     position: absolute;
@@ -15,69 +16,106 @@ body {
     padding: 20px;
     width: 600px;
     transform: translate(-50%,-50%);
-    background: #195662;
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .todo {
     width: 400px;
 }
+
 .todo-container h2 {
     padding: 10px;
-    font-size: 30px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 2em;
 }
+
 .todo-header input {
-    width: 93%; 
+    width: 92%;
     border: none;
     border-radius: 5px;
     height: 20px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 600;
 }
+
 .todo-header button {
-    color: white;
     border: none;
-    border-radius: 50%;
+    border-radius: 30px;
     cursor: pointer;
     padding: 5px;
-    background-color: orange;
+    width: 25px;
+    color: white;
+    background-color: rgb(141, 1, 144);
 }
+
 .todo-container ul {
     list-style: none;
 }
+
 .todo-list-item {
     padding: 10px;
     margin-top: 10px;
     border: none;
     border-radius: 5px;
+    font-family: 'Roboto Mono', sans-serif;
     background: rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: row;
 }
+
+.todo-list-item form {
+    width: 100%;
+    display: flex;
+}
+
+.todo-list-item input {
+    flex-grow: 2;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
 .todo-list-item button {
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     padding: 5px;
+    font-family: 'Roboto Mono', sans-serif;
     background-color: green;
 }
+
 .todo-list-item .cancel {
     color: white;
+    text-decoration: none;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     padding: 5px;
-    background-color: red;
+    font-family: 'Roboto Mono', sans-serif;
+    background-color: rgb(206, 62, 62);
     margin-left: 5px;
 }
+
+.todo-list-item div {
+    flex-grow: 2;
+}
+
 .todo-list-item .edit {
-    color: greenyellow;
-    margin-left: 10px;
+    color : rgb(54, 218, 78);
+    margin-right: 10px;
     cursor: pointer;
+    text-decoration: none;
 }
+
 .todo-list-item .remove {
-    color: red;
-    margin-left: 5px;
+    color : rgb(211, 82, 82);
+    margin-right: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
