@@ -1,4 +1,4 @@
-# Todo List App
+# To-do List App 📝
 This simple todo list app is built using MongoDB, Express & Node.js.
 
 ## Cloning Project
