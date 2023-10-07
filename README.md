@@ -3,7 +3,7 @@ This simple todo list app is built using MongoDB, Express & Node.js.
 
 ## Cloning Project
 ```
-git clone git@github.com:jung-eugene/todo-app.git
+git clone https://github.com/jung-eugene/todo-app.git
 ```
 
 ## Install Dependencies
